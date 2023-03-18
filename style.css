@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+ /*body style */
+ body {
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    max-width:50vw;
+    align-content: center;
+    background-image: url("images/bg800bulbs.jpg");
+    background-repeat: no-repeat;
+    background-color:#5A514A; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+ /* main style*/
+.main {background-color: white;
+   margin-left:20%;
+   margin-top: 1.25rem;
+   margin-bottom: 2.5rem;
+   border: 0.1875rem solid;
+    border-radius: 0.4375rem;
+    border-color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+
+}
+ /*navigation bar styles */
+  ul {
+    list-style-type: none;
+  }
+  
+  .navbar {
+    background: white;
+    height: 3.75rem;
+  }
+  
+  #logo {margin-left: 0.625rem;
+    margin-top: 0.625rem;
+    float: left;
+        
+}
+    #htgreen img{max-width:100%;
+        height: auto;
+    }
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+  }
+  
+  .navbar a:hover {
+    color: #b9692E;
+  }
+  
+ 
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+  .navbar ul li {
+    margin-right: 0.625rem;
+  }
+  /*main information paragraphs styling */
+.information img {
+    float: right;
+    max-width:100%;
+        height: auto;
+  }
+.information p {
+    float:left;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.aboutus h2 {clear: both;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.aboutuspara {background: white;
+
+}
+ /*testimonial styles */
+.testimonial img {
+    float:left;
+    padding: 0rem 0.625rem;
+    max-width:100%;
+        height: auto;
+}
+.testimonial {
+    border-color: #B0D2CB;
+    background-color:#F8FFFE ;
+    border-style: solid;
+    border-width: medium;
+    padding: 0.625rem 1.875rem 1.875rem 0.625rem ;
+    margin-bottom: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    float:left
+    
+}   
+.testimonial {clear: both;}
+
+ /*button stlyes */
+.buttons {clear: both;
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          height: auto;
+          width: auto;
+          background: white;
+          border-radius: 1.25rem;
+          border-style: solid;
+          border-color: #707070;
+          margin-left:  27%;
+          margin-right: 27%;
+         padding-top: 0.75rem;
+         padding-bottom: 0.75rem;
+         background-color: #E4E4E4;
+         
+}
+
+.buttons a{text-decoration: none;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400; 
+           height: auto;
+}
+    
+
+.backtotop {background-color: #E4E4E4;
+            padding:0.625rem 3.125rem;
+            border-color: #707070;
+            border-radius: 1.25rem;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+       
+}
+ /* footer styles*/
+#mainfooter {background-color: #D66717;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+#footertext {margin-left: 0.625rem;
+            padding: 1.25rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+}
+ /*h1 styles */
+  h1 {margin-left: 0.625rem;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  700;
+
+  }  
+   /*h2 styles */
+  h2 {margin-left: 0.625rem;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+  /*paragraph styles */    
+p {margin-left: 0.625rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+
+}  
+
+hr { margin-left: 0.625rem;
+    margin-right: 0.625rem;
+   }
+
+.information img{margin-right: 0.625rem;}
